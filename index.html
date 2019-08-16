@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Hamburger Navigation Menu Demo</title>
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav class="site-nav" currentpage="home">
+            <h1 class="logo">WebApp<span> Navigation</span></h1>
+
+            <div class="menu-toggle">
+              <div class="hamburger"></div>
+            </div>
+
+            <ul class="open desktop">
+                <li><a href="#!"  onclick="app.nav.page('home')"><i class="fa fa-database site-nav--icon" ></i>Home</a></li>
+                <li><a href="#!"  onclick="app.nav.page('news')"><i class="fa fa-info-circle site-nav--icon"></i>Latest News</a></li>
+                <li><a href="#!"  onclick="app.nav.page('about')"><i class="fa fa-paper-plane site-nav--icon"></i>About us</a></li>
+                <li><a href="#!"  onclick="app.nav.page('download')"><i class="fa fa-cloud-download site-nav--icon"></i>Download</a></li>
+                <li><a href="#!"  onclick="app.nav.evt.show_message('My message to you!')"><i class="fa fa-cloud-download site-nav--icon"></i>Script-Call</a></li>
+                <li><a href="../create_files4json.html" id="menu_link"><i class="fa fa-cog site-nav--icon"></i>Link</a></li>
+            </ul>
+        </nav>
+    </div>
+<div class="area" data-role="page-container" id="page-container" currentpage="home">
+	<div class="pages-app" data-role="page" id="home">
+		<h2>Home</h2>
+		Please try to <b>change width</b> of the browser window to see what happens with the hamburger menu - with a narrow width the hamburger menu icon will appear on the right top.
+	</div>
+	<div class="pages-app" data-role="page" id="news">
+		<h2>News</h2>
+		This is News page with page content. If you want to create your own hamburger menu check out <a href="https://niebert.github.io/JSONEditor4Menu" target="_blank">JSONEditor4Menu</a>.
+  </div>
+	<div class="pages-app" data-role="page" id="about">
+		<h2>About</h2>
+		This Hamburger Menu was created with <a href="https://niebert.github.io/JSONEditor4Menu" target="_blank">JSONEditor4Menu</a>. The whole <a href="https://en.wikiversity.org/wiki/WebApps_with_LocalStorage_and_AppCache" target="_blank">AppLSAC</a> is a uncompressed exported ZIP file.
+	</div>
+	<div class="pages-app" data-role="page" id="download">
+		<h2>Download</h2>
+		This is of the Download page with
+    <ul>
+      <li>
+        a link to <a href="https://fontawesome.com/v4.7.0/icons/" target="_blank">Font Awesome 4.7.0</a>, that is used for icons in the menu with a small window width.
+      </li>
+      <li>
+        you can also download this <a href="https://niebert.github.io/JSONEditor4Menu/hamburger_menu_app.zip" target="_blank"><kbd>hamburger_menu_app</kbd>  example</a>
+      </li>
+    </ul>
+	</div>
+	<div class="pages-app" data-role="page" id="contact">
+		<h2>Contact</h2>
+		This is a demo contact page.
+	</div>
+</div>
+
+<script src="js/jquery-3.2.0.min.js"></script>
+
+<script src="js/menu.js"></script>
+</body>
+</html>
