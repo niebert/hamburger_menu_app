@@ -7,7 +7,7 @@ This repository contains a [`hamburger_menu_app`](https://niebert.github.io/hamb
 * [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html`
 
 
-   <h3>[Hamburger Menu App Demo](https://niebert.github.io/hamburger_menu_app)</h3>
+   <h4>Hamburger Menu App Demo: https://niebert.github.io/hamburger_menu_app </h4>
 
 ## Acknowledgement
 Special thanks to the following individual developers and teams of OpenSource JavaScript projects:
