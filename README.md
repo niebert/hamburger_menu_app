@@ -6,8 +6,9 @@ This repository contains a [`hamburger_menu_app`](https://niebert.github.io/hamb
 * [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/css_tpl.js` as template to generate the  style sheet `docs/css/style.css`
 * [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html`
 
-::: <h3>[Hamburger Menu App Demo](https://niebert.github.io/hamburger_menu_app)</h3>
-
+<quote>
+ <h3>[Hamburger Menu App Demo](https://niebert.github.io/hamburger_menu_app)</h3>
+</quote>
 ## Acknowledgement
 Special thanks to the following individual developers and teams of OpenSource JavaScript projects:
 * [Font Awesome Icons - 4.7.0](https://fontawesome.com/v4.7.0/icons/) thanks to [fontawesome.com](https://fontawesome.com) for providing the [free 4.7.0 version](https://fontawesome.com/v4.7.0/icons/) for local application for this WebApp. The [fonts in version 4.7.0](https://fontawesome.com/v4.7.0/icons/) are created by ***[Font Awesome](https://fontawesome.com)*** and
