@@ -1,11 +1,12 @@
-# Hamburger Menu - Example - Brown
-Navigation with hamburger menu and JQUery. 
+# Hamburger Menu Application -  Brown
+This repository contains a [`hamburger_menu_app`](https://niebert.github.io/hamburger_menu_app) as an example of an webbased application (see [AppLSAC](https://en.wikiversity.org/wiki/WebApps_with_LocalStorage_and_AppCache)). Navigation is implemented with Hamburger Menu and JQUery.
 * The folder was used for building a ZIP for the demo,
-* the file `hamburger_menu.zip` is used by JSONEditor4Menu as template ZIP for the generated ZIP file the user menu.
-* JSONEditor4Menu uses the `docs/tpl/javascript_tpl.js` as template to generate the  `docs/js/menu.js`
-* JSONEditor4Menu uses the `docs/tpl/css_tpl.js` as template to generate the  style sheet `docs/css/style.css`
-* JSONEditor4Menu uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html`
+* the ZIP file [`hamburger_menu_app.zip`](https://github.com/niebert/hamburger_menu_app/archive/master.zip) was generated with [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) as template ZIP for the generated ZIP file the user menu.
+* [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/javascript_tpl.js` as template to generate the  `docs/js/menu.js`
+* [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/css_tpl.js` as template to generate the  style sheet `docs/css/style.css`
+* [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html`
 
+::: <h3>[Hamburger Menu App Demo](https://niebert.github.io/hamburger_menu_app)</h3>
 
 ## Acknowledgement
 Special thanks to the following individual developers and teams of OpenSource JavaScript projects:
