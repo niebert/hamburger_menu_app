@@ -41,6 +41,13 @@ header {
   display: block;
 }*/
 
+.menu-icon {
+  letter-spacing: 3px;
+  margin-right: 1em;
+  width: 1.1em;
+  text-align: right;
+  color: rgba(255,255,255,.4);
+}
 
 .logo {
   color: #fff;
@@ -111,7 +118,9 @@ header {
 */
 
 
-
+.nav-text {
+  display: inline;
+}
 
 
 nav {

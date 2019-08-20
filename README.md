@@ -1,7 +1,9 @@
 # Hamburger Menu Application -  Brown
 This repository contains a [`hamburger_menu_app`](https://niebert.github.io/hamburger_menu_app) as an example of an webbased application (see [AppLSAC](https://en.wikiversity.org/wiki/WebApps_with_LocalStorage_and_AppCache)). Navigation is implemented with Hamburger Menu and JQUery.
 * The folder was used for building a ZIP for the demo,
-* the ZIP file [`hamburger_menu_app.zip`](https://github.com/niebert/hamburger_menu_app/archive/master.zip) was generated with [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) as template ZIP for the generated ZIP file the user menu.
+* the ZIP file [`hamburger_menu_app.zip`](https://github.com/niebert/hamburger_menu_app/archive/master.zip) was generated with a test version of [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) and this repository is a template ZIP for the generated ZIP file the user menu.
+
+## Test Version of [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu)
 * [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/javascript_tpl.js` as template to generate the  `docs/js/menu.js`
 * [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/css_tpl.js` as template to generate the  style sheet `docs/css/style.css`
 * [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html`
@@ -9,8 +11,14 @@ This repository contains a [`hamburger_menu_app`](https://niebert.github.io/hamb
 
    <h4>Hamburger Menu App Demo: https://niebert.github.io/hamburger_menu_app </h4>
 
+
+## Change Log
+* Version: 2.0.0 Font Awesome dependency removed - [JQuery Icons](https://jqueryui.com) used for icons in the menu. The folder `img/` contains the folder with JQuery icons in `PNG` and `SVG` format that can be used directly in the HTML file by embedding them with `IMG` tags in HTML. This is a robost method to have the icons of choice available for the developers. 
+* Version 1.0.0: Was dependent on [Font Awesome Icons - 4.7.0](https://fontawesome.com/v4.7.0/icons/) used for icons in the Hamburger menu
+
 ## Acknowledgement
 Special thanks to the following individual developers and teams of OpenSource JavaScript projects:
+* [JQuery](https://jqueryui.com) is used for the theme and standard operations in the Document Object Model (DOM) of HTML-pages. The [JQuery-Themeroller](https://jqueryui.com/themeroller/) was used to create a JQuery theme for JSCC.
 * [Font Awesome Icons - 4.7.0](https://fontawesome.com/v4.7.0/icons/) thanks to [fontawesome.com](https://fontawesome.com) for providing the [free 4.7.0 version](https://fontawesome.com/v4.7.0/icons/) for local application for this WebApp. The [fonts in version 4.7.0](https://fontawesome.com/v4.7.0/icons/) are created by ***[Font Awesome](https://fontawesome.com)*** and
 licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL). The javascript-code for injecting the icon into the DOM licensed under [MIT License](http://opensource.org/licenses/mit-license.html). The
 [Documentation](https://fontawesome.com/v4.7.0/examples/) for [Font Awesome - 4.7.0](https://fontawesome.com/v4.7.0/icons/) licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). The [Font-Awesome GitHub-repository](https://github.com/FortAwesome/Font-Awesome) can be used for forking and adapting the javascript code to individual requirements and constraints.
@@ -24,4 +32,3 @@ The JSON-Editor of Jeremy Dorn has full support for JSON Schema version 3 and 4 
 * [JointJS](https://github.com/clientIO/joint) JointJS is a JavaScript diagramming library. It can be used to create either static diagrams. JointJS is used in this project to create UML-diagrams, that are interactive diagramming in conjunction and application builder in Javascript.
 * [Inheritage for JavaScript with protoypes](http://phrogz.net/js/classes/OOPinJS2.html) by Gavin Kistner
 * [3 ways to define a JavaScript class](https://www.phpied.com/3-ways-to-define-a-javascript-class/) by Stoyan Stefanov
-* [JQuery](https://jqueryui.com) is used for the theme and standard operations in the Document Object Model (DOM) of HTML-pages. The [JQuery-Themeroller](https://jqueryui.com/themeroller/) was used to create a JQuery theme for JSCC.
