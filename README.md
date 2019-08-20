@@ -8,9 +8,10 @@ This repository contains a [`hamburger_menu_app`](https://niebert.github.io/hamb
 
 
 ## Test Version of [JSONEditor4Menu](https://niebert.github.io/hamburger-menu-creator)
-* [JSONEditor4Menu](https://github.com/niebert/hamburger-menu-creator/tree/master/docs/tpl) uses the `docs/tpl/javascript_tpl.js` as template to generate the  `docs/js/menu.js`
-* [JSONEditor4Menu](https://github.com/niebert/hamburger-menu-creator/tree/master/docs/tpl) uses the `docs/tpl/css_tpl.js` as template to generate the  style sheet `docs/css/style.css`
-* [JSONEditor4Menu](https://github.com/niebert/hamburger-menu-creator/tree/master/docs/tpl) uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html`
+* [JSONEditor4Menu](https://github.com/niebert/hamburger-menu-creator/tree/master/docs/tpl) uses the `docs/tpl/javascript_tpl.js` as template to generate the  `docs/js/menu.js` for the [<kbd>hamburger_menu_app</kbd>](https://niebert.github.io/hamburger_menu_app).
+* [JSONEditor4Menu](https://github.com/niebert/hamburger-menu-creator/tree/master/docs/tpl) uses the `docs/tpl/css_tpl.js` as template to generate the  style sheet `docs/css/style.css` for the [<kbd>hamburger_menu_app</kbd>](https://niebert.github.io/hamburger_menu_app).
+* [JSONEditor4Menu](https://github.com/niebert/hamburger-menu-creator/tree/master/docs/tpl) uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html` for the [<kbd>hamburger_menu_app</kbd>](https://niebert.github.io/hamburger_menu_app).
+Code generation is performed with [Handlebars4Code](https://niebert.github.io/Handlebars4Code).
 
 
 
