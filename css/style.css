@@ -42,11 +42,12 @@ header {
 }*/
 
 .menu-icon {
-  letter-spacing: 3px;
+  margin-left: 1em;
   margin-right: 1em;
-  width: 1.1em;
+  width: 1.0em;
+  /* letter-spacing: 3px;
   text-align: right;
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.4);  */
 }
 
 .logo {
