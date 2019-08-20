@@ -1,19 +1,21 @@
 # Hamburger Menu Application -  Brown
 This repository contains a [`hamburger_menu_app`](https://niebert.github.io/hamburger_menu_app) as an example of an webbased application (see [AppLSAC](https://en.wikiversity.org/wiki/WebApps_with_LocalStorage_and_AppCache)). Navigation is implemented with Hamburger Menu and JQUery.
 * The folder was used for building a ZIP for the demo,
-* the ZIP file [`hamburger_menu_app.zip`](https://github.com/niebert/hamburger_menu_app/archive/master.zip) was generated with a test version of [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) and this repository is a template ZIP for the generated ZIP file the user menu.
-
-## Test Version of [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu)
-* [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/javascript_tpl.js` as template to generate the  `docs/js/menu.js`
-* [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/css_tpl.js` as template to generate the  style sheet `docs/css/style.css`
-* [JSONEditor4Menu](https://niebert.github.io/JSONEditor4Menu) uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html`
+* the ZIP file [`hamburger_menu_app.zip`](https://github.com/niebert/hamburger_menu_app/archive/master.zip) was generated with a test version of [JSONEditor4Menu](https://niebert.github.io/hamburger-menu-creator) and this repository is a template ZIP for the generated ZIP file the user menu.
 
 
-   <h4>Hamburger Menu App Demo: https://niebert.github.io/hamburger_menu_app </h4>
+   <h3>Hamburger Menu App Demo: https://niebert.github.io/hamburger_menu_app </h3>
+
+
+## Test Version of [JSONEditor4Menu](https://niebert.github.io/hamburger-menu-creator)
+* [JSONEditor4Menu](https://www.github.com/niebert/hamburger-menu-creator) uses the `docs/tpl/javascript_tpl.js` as template to generate the  `docs/js/menu.js`
+* [JSONEditor4Menu](https://niebert.github.io/hamburger-menu-creator) uses the `docs/tpl/css_tpl.js` as template to generate the  style sheet `docs/css/style.css`
+* [JSONEditor4Menu](https://niebert.github.io/hamburger-menu-creator) uses the `docs/tpl/html_tpl.js` as template to generate the  style sheet `docs/index.html`
+
 
 
 ## Change Log
-* Version: 2.0.0 Font Awesome dependency removed - [JQuery Icons](https://jqueryui.com) used for icons in the menu. The folder `img/` contains the folder with JQuery icons in `PNG` and `SVG` format that can be used directly in the HTML file by embedding them with `IMG` tags in HTML. This is a robost method to have the icons of choice available for the developers. 
+* Version: 2.0.0 Font Awesome dependency removed - [JQuery Icons](https://jqueryui.com) used for icons in the menu. The folder `img/` contains the folder with JQuery icons in `PNG` and `SVG` format that can be used directly in the HTML file by embedding them with `IMG` tags in HTML. This is a robost method to have the icons of choice available for the developers.
 * Version 1.0.0: Was dependent on [Font Awesome Icons - 4.7.0](https://fontawesome.com/v4.7.0/icons/) used for icons in the Hamburger menu
 
 ## Acknowledgement
