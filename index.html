@@ -55,6 +55,15 @@
 		This is News page with page content.
     With an Open Source JSON Editor originally developed by Jeremy Dorn a Navigation Menu Creator is developed. A first alpha-version is used to created this demo.
     In the future you can create your own hamburger menu with <a href="https://niebert.github.io/hamburger-menu-creator" target="_blank">JSONEditor4Menu</a> which is an Offline <a href="https://en.wikiversity.org/wiki/WebApps_with_LocalStorage_and_AppCache" target="_blank">AppLSAC</a>.
+    <ul>
+      <li>
+        Link to the <a href="#!"  onclick="app.nav.page('contact')">contact page</a> in the text.
+      </li>
+      <li>
+        Link to the <a href="#!"  onclick="app.nav.page('about')">About page</a> in the text.
+      </li>
+    </ul>
+
   </div>
 	<div class="pages-app" data-role="page" id="about">
 		<h2>About</h2>
@@ -75,7 +84,7 @@
 	</div>
 	<div class="pages-app" data-role="page" id="contact">
 		<h2>Contact</h2>
-		This is a demo contact page.
+		This is a demo contact page. The Hamburger Menu uses JQuery to hide and show the selected pages in the menu. The page navigation is defined in <kbd>js/menu.js</kbd>.
 	</div>
 </div>
 
