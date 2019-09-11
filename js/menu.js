@@ -69,6 +69,13 @@ var  app = {
 		"evt": {
 			"show_message": function (pMsg) {
 					console.log("CALL: app.evt.show_message(pMsg)");
+					if ($('ul.opening').is(":visible")) {
+							//console.log("MENU: visible > hide menu!");
+							// hide menu
+							$('ul').toggleClass('opening');
+							// change [X] to Hamburger icon
+							$('.menu-toggle').toggleClass('open');
+					};
 					// hide all pages
 					$('.pages-app').hide();
 					// show alert message
