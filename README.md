@@ -14,9 +14,12 @@ This repository contains a [`hamburger_menu_app`](https://niebert.github.io/hamb
 
 Code generation is performed with [Handlebars4Code](https://niebert.github.io/Handlebars4Code).
 
+## Icons4Menu
+A generic repository for menu icons is maintained in the repository [icons4menu](https://www.github.com/niebert/icons4menu). The script `update_wget_icons.sh` updates the script from the [icons4menu](https://www.github.com/niebert/icons4menu) and replaces the script `wget_icons.sh`. The script `wget_icons.sh` can be used to download an updated version of the icons. Please modify the script according to your needs, to download just a subset for your [AppLSAC](https://en.wikiversity.org/wiki/WebApps_with_LocalStorage_and_AppCache).
 
 
 ## Change Log
+* Version 3.0.0 [Icons4Menu](https://www.github.com/niebert/icons4menu) is used to display icons - see repository https://niebert.github.io/icons4menu for licencsing details for the icons.
 * Version: 2.0.0 Font Awesome dependency removed - [JQuery Icons](https://jqueryui.com) used for icons in the menu. The folder `img/` contains the folder with JQuery icons in `PNG` and `SVG` format that can be used directly in the HTML file by embedding them with `IMG` tags in HTML. This is a robost method to have the icons of choice available for the developers.
 * Version 1.0.0: Was dependent on [Font Awesome Icons - 4.7.0](https://fontawesome.com/v4.7.0/icons/) used for icons in the Hamburger menu
 
