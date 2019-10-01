@@ -19,6 +19,7 @@ A generic repository for menu icons is maintained in the repository [icons4menu]
 
 
 ## Change Log
+* Version 3.1.0 [Icons4Menu](https://www.github.com/niebert/icons4menu) icons updated in folder `/img` - with `sh update_wget_icons.sh` and `sh wget_icons.sh` - see repository https://niebert.github.io/icons4menu for licencsing details for the icons.
 * Version 3.0.0 [Icons4Menu](https://www.github.com/niebert/icons4menu) is used to display icons - see repository https://niebert.github.io/icons4menu for licencsing details for the icons.
 * Version: 2.0.0 Font Awesome dependency removed - [JQuery Icons](https://jqueryui.com) used for icons in the menu. The folder `img/` contains the folder with JQuery icons in `PNG` and `SVG` format that can be used directly in the HTML file by embedding them with `IMG` tags in HTML. This is a robost method to have the icons of choice available for the developers.
 * Version 1.0.0: Was dependent on [Font Awesome Icons - 4.7.0](https://fontawesome.com/v4.7.0/icons/) used for icons in the Hamburger menu

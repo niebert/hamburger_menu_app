@@ -1,8 +1,8 @@
 {
   "name": "hamburger_menu_app",
-  "version": "1.0.0",
+  "version": "3.1.0",
   "description": "Icon Set for WebApps designed for application in AppLSACs",
-  "main": "src/iconlib.js",
+  "main": "js/menu.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
