@@ -89,9 +89,3 @@ function AppLSAC() {
 };
 
 var app = new AppLSAC();
-
-//--- init pages ----
-app.nav.page("home");
-
-//--- Assign Toggle Menu Function ----
-$('.menu-toggle').click(app.nav.menu.toggle);

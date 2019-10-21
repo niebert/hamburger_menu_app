@@ -48,6 +48,7 @@
             <a href="menu_icons_only.html"><b>Menu Bar in Desktop Mode:</b> Icons only </a>
           </li>
         </ul>
+        Create you own WebApp with <a href="https://niehausbert.gitlab.io/jsoneditor4menu" target="_blank">JSONEditor4Menu</a>.
         See also <a href="use_icons.html">general info about the integration of icons</a> in WebApps.
     	</div>
     	<div class="pages-app" data-role="page" id="news">
@@ -100,5 +101,12 @@
 <script src="js/jquery-3.2.0.js"></script>
 
 <script src="js/menu.js"></script>
+
+<script type="text/javascript">
+  //--- show the start page ----
+  app.nav.page("home");
+  //--- Assign Toggle Menu Function ----
+  $('.menu-toggle').click(app.nav.menu.toggle);
+</script>
 </body>
 </html>
