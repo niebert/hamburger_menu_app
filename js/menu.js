@@ -1,7 +1,7 @@
 
-var  app = {
+function AppLSAC() {
 	//--- Navigation -----
-	"nav": {
+	this.nav = {
 		"page": function(pid) {
 			pid = pid || this.menu.current;
 			//console.log("Current Page:"+this.menu.current);
@@ -66,7 +66,7 @@ var  app = {
 			}
 		},
 		//--- Event Handler ----
-		"evt": {
+		"evt" : {
 			"show_message": function (pMsg) {
 					console.log("CALL: app.evt.show_message(pMsg)");
 					if ($('ul.opening').is(":visible")) {
@@ -82,12 +82,13 @@ var  app = {
 					alert(pMsg);
 					// show page "download"
 					$('#download').show();
-			}
-		}
-
-	}
+			} //--close: msg
+		}  //--close: evt
+	}  //--close: nav
 
 };
+
+var app = new AppLSAC();
 
 //--- init pages ----
 app.nav.page("home");

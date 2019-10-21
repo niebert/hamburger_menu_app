@@ -7,7 +7,7 @@
   <title>Basic Hamburger Navigation Menu Demo</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/jquery-ui.css">
-  
+
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -16,7 +16,7 @@
 
     <div class="wrapper">
         <nav class="site-nav" currentpage="home">
-            <h1 class="logo">WebApp<span> Navigation</span></h1>
+            <h1 class="logo">WebApp <span>Navigation</span></h1>
 
             <div class="menu-toggle">
               <div class="hamburger"></div>
@@ -24,8 +24,8 @@
 
             <ul class="open desktop">
                 <li><a href="#!"  onclick="app.nav.page('home')"><img class="menu-icon" src="img/icons-svg/home-white.svg"><div class="nav-text site-nav--text">Home</div></a></li>
-                <li><a href="#!"  onclick="app.nav.page('news')"><img class="menu-icon" src="img/icons-svg/info-white.svg"><div class="nav-text site-nav--text">Latest News</div></a></li>
-                <li><a href="#!"  onclick="app.nav.page('about')"><img class="menu-icon" src="img/icons-svg/grid-white.svg"><div class="nav-text site-nav--text">About us</div></a></li>
+                <li><a href="#!"  onclick="app.nav.page('news')"><img class="menu-icon" src="img/icons-svg/info-white.svg"><div class="nav-text site-nav--text">News</div></a></li>
+                <li><a href="#!"  onclick="app.nav.page('about')"><img class="menu-icon" src="img/icons-svg/info-white.svg"><div class="nav-text site-nav--text">About</div></a></li>
                 <li><a href="#!"  onclick="app.nav.page('download')"><img class="menu-icon" src="img/icons-svg/arrow-d-white.svg"><div class="nav-text site-nav--text">Download</div></a></li>
                 <li><a href="#!"  onclick="app.nav.evt.show_message('My message to you!')"><img class="menu-icon" src="img/icons-svg/gear-white.svg"><div class="nav-text site-nav--text">Script-Call</div></a></li>
                 <li><a href="use_icons.html" id="menu_link"><img class="menu-icon" src="img/icons-svg/action-white.svg"><div class="nav-text site-nav--text">Link</div></a></li>
@@ -96,8 +96,10 @@
     		This is a demo contact page. The Hamburger Menu uses JQuery to hide and show the selected pages in the menu. The page navigation is defined in <kbd><a href="https://github.com/niebert/hamburger_menu_app/blob/master/js/menu.js" target="_blank">js/menu.js</a></kbd>.
     	</div>
     </div>
-
+<!--
 <script src="js/jquery-3.2.0.min.js"></script>
+-->
+<script src="js/jquery-3.2.0.js"></script>
 
 <script src="js/menu.js"></script>
 </body>
