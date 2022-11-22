@@ -27,7 +27,7 @@ A generic repository for menu icons is maintained in the repository [icons4menu]
 ## See also 
 
 * **[Hamburger Menu Creator](https://www.github.com/niebert/hamburger-menu-creator)** - **Demo:** <a href="https://niebert.github.io/hamburger-menu-creator" target="_blank">Demo Hamburger Menu - Creator</a></h3>
-* **[Hamburger Menu - Multi-Level](/www.github.com/niebert/hamburger-menu-no-js/)** without the need of Javascript - **Demo:** <a href="https://www.github.com/niebert/hamburger-menu-no-js/" target="_blank">hamburger-menu-no-js</a>
+* **[Hamburger Menu - Multi-Level](https://www.github.com/niebert/hamburger-menu-no-js/)** without the need of Javascript - **Demo:** <a href="https://www.github.com/niebert/hamburger-menu-no-js/" target="_blank">hamburger-menu-no-js</a>
 
 
 ## Acknowledgement
