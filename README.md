@@ -24,6 +24,12 @@ A generic repository for menu icons is maintained in the repository [icons4menu]
 * Version: 2.0.0 Font Awesome dependency removed - [JQuery Icons](https://jqueryui.com) used for icons in the menu. The folder `img/` contains the folder with JQuery icons in `PNG` and `SVG` format that can be used directly in the HTML file by embedding them with `IMG` tags in HTML. This is a robost method to have the icons of choice available for the developers.
 * Version 1.0.0: Was dependent on [Font Awesome Icons - 4.7.0](https://fontawesome.com/v4.7.0/icons/) used for icons in the Hamburger menu
 
+## See also 
+
+* **[Hamburger Menu Creator](https://www.github.com/niebert/hamburger-menu-creator)** - **Demo:** <a href="https://niebert.github.io/hamburger-menu-creator" target="_blank">Demo Hamburger Menu - Creator</a></h3>
+* **[Hamburger Menu - Multi-Level](/www.github.com/niebert/hamburger-menu-no-js/)** without the need of Javascript - **Demo:** <a href="https://www.github.com/niebert/hamburger-menu-no-js/" target="_blank">hamburger-menu-no-js</a>
+
+
 ## Acknowledgement
 Special thanks to the following individual developers and teams of OpenSource JavaScript projects:
 * [JQuery](https://jqueryui.com) is used for the theme and standard operations in the Document Object Model (DOM) of HTML-pages. The [JQuery-Themeroller](https://jqueryui.com/themeroller/) was used to create a JQuery theme for JSCC.
